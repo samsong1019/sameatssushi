@@ -13,4 +13,63 @@
     <title>Contact | SamEatsSushi</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+<body id="top">
+    <!-- Main site header -->
+<header>
+    <h1>SamEatsSushi</h1>
+    <p>Give me MORE</p>
+</header>
+
+    <!-- Main navigation menu -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="types.html">Types</a>
+    <a href="recommendations.html">Recommendations</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="video.html">Video</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+    <a href="sitemap.html">Site Map</a>
+</nav>
+
+    <main>
+        <!-- Contact page with email hyperlink and form -->
+        <h2>Contact SamEatsSushi</h2>
+        <p>Email me at: <a href="mailto:sam@sameatssushi.com">thisIsFake@sameatssushi.com</a></p>
+
+        <h3>Wanna help me find my next spot to hit?</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="favorite">Favorite Sushi Type:</label>
+            <select id="favorite" name="favorite">
+                <option value="nigiri">Nigiri</option>
+                <option value="maki">Maki Roll</option>
+                <option value="sashimi">Sashimi</option>
+            </select>
+
+            <p>Experience Level:</p>
+            <!--radio options so they cant tell me they are all of the above not that i would look anyway-->
+            <label><input type="radio" name="level" value="beginner"> Beginner</label>
+            <label><input type="radio" name="level" value="experienced"> Experienced</label>
+
+            <label><input type="checkbox" name="newsletter"> Sign me up for sushi updates (I am against spam so I won't actually send you anything)</label>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+<footer>
+    <p>&copy; 2026 SamEatsSushi. All Rights Reserved.</p>
+    <p><a href="#top">Back to Top</a></p>
+</footer>
+</body>
 </html>
